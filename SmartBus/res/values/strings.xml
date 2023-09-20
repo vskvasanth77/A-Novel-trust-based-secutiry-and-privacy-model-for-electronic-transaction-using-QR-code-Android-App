@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SmartBus</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_bankdetails">Bankdetails</string>
+    <string name="title_activity_qrscan">QRScan</string>
+    <string name="title_activity_user_reg">UserReg</string>
+
+    <string-array name="Menu">
+        <item>User Login</item>
+        <item>Bank Details </item>
+        <item>About</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_success">Success</string>
+    <string name="title_activity_userlogin">Userlogin</string>
+    <string name="title_activity_wallet">Wallet</string>
+    <string name="title_activity_ticket_amount">TicketAmount</string>
+    <string name="title_activity_amountgeneration">Amountgeneration</string>
+    <string name="title_activity_buslist">Buslist</string>
+    <string name="title_activity_bus_list">BusList</string>
+    <string name="title_activity_sample">Sample</string>
+    <string name="title_activity_payment">PaymentAct</string>
+    <string name="title_activity_recharge">RechargeAct</string>
+    <string name="title_activity_make_pay">MakePay</string>
+
+</resources>

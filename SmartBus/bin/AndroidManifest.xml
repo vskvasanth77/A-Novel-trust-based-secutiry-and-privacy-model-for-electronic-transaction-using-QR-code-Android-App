@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smartbus"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.smartbus.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.smartbus.About"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name="com.example.smartbus.Bankdetails"
+            android:label="@string/title_activity_bankdetails" >
+        </activity>
+        <activity
+            android:name="com.example.smartbus.QRScan"
+            android:label="@string/title_activity_qrscan" >
+        </activity>
+        <activity
+            android:name="com.example.smartbus.UserReg"
+            android:label="@string/title_activity_user_reg" >
+        </activity>
+        <activity
+            android:name="com.example.smartbus.Success"
+            android:label="@string/title_activity_success" >
+        </activity>
+        <activity
+            android:name="com.example.smartbus.Userlogin"
+            android:label="@string/title_activity_userlogin" >
+        </activity>
+        <activity
+            android:name="com.example.smartbus.Wallet"
+            android:label="@string/title_activity_wallet" >
+        </activity>
+        <activity
+            android:name="com.example.smartbus.TicketAmount"
+            android:label="@string/title_activity_ticket_amount" >
+        </activity>
+        <activity
+            android:name="com.example.smartbus.Amountgeneration"
+            android:label="@string/title_activity_amountgeneration" >
+        </activity>
+        <activity
+            android:name="com.example.smartbus.Buslist"
+            android:label="@string/title_activity_buslist" >
+        </activity>
+        <activity
+            android:name="com.example.smartbus.BusList"
+            android:label="@string/title_activity_bus_list" >
+        </activity>
+        <activity
+            android:name="com.example.smartbus.Sample"
+            android:label="@string/title_activity_sample" >
+        </activity>
+        <activity
+            android:name="com.example.smartbus.PaymentAct"
+            android:label="@string/title_activity_payment" >
+        </activity>
+        <activity
+            android:name="com.example.smartbus.RechargeAct"
+            android:label="@string/title_activity_recharge" >
+        </activity>
+        <activity
+            android:name="com.example.smartbus.MakePay"
+            android:label="@string/title_activity_make_pay" >
+        </activity>
+    </application>
+
+</manifest>
